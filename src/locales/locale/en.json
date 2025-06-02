@@ -1,0 +1,347 @@
+{
+  "proceed": "Proceed in English",
+  "subtitle": "Get personalized health guidance",
+  "terms": "By continuing, you agree to our Terms of Service and Privacy Policy",
+  "welcome_to": "Welcome to",
+  "quilt_health": "Quilt Health",
+  "tagline": "From Fragmented Care To A Flourishing Health Journey Wrapped In Care.",
+  "tagline_highlight": "We Call It Your Health Quilt.",
+  "description": "Your Health Quilt is your connected health data paired with your personal Quilt Health Advisor.\n\nIt’s where all the pieces of your health come together. Medical history, lab testing with insightful results, and personalized care — all designed to work seamlessly in your preferred language.\n\nConsider us your doctor in the family.",
+  "sign_up": "Sign Up",
+  "log_in": "Log In",
+  "user_type": {
+    "heading": "What Type of User Will You Be?",
+    "patient_title": "I am a Patient",
+    "patient_subtitle": "Looking to get personalized care",
+    "advisor_title": "I am a Health Advisor",
+    "advisor_subtitle": "Seeking to provide care"
+  },
+  "common": {
+    "continue": "Continue",
+    "begin": "Begin"
+  },
+  "healthOnboarding": {
+    "title": "Health Onboarding Questions",
+    "subtitle": "We’ll ask you a series of questions that will help us establish a baseline for your overall health and goals."
+  },
+  "consent": {
+    "title": "Your Consent",
+    "subtitle": "Please review and provide consent",
+    "data_collection": {
+      "title": "Data Collection",
+      "description": "Quilt Health collects and securely stores your health information to provide personalized care. This includes your profile, medical history, screening results, lab tests, and consultation data."
+    },
+    "data_sharing": {
+      "title": "Data Sharing",
+      "description": "Quilt Health shares your information with your care providers to ensure coordinated care. We may also use de-identified data for research and service improvement. We never sell your data."
+    },
+    "more_info": "More Information",
+    "continue_cta": "I Agree - Continue",
+    "consent_required": "Cannot proceed without consent",
+    "withdraw_note": "You can withdraw consent at any time from your profile settings"
+  },
+  "profile": {
+    "title": "Your Profile",
+    "add_photo": "Add Photo",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "dob": "Date of Birth",
+    "dob_placeholder": "mm/dd/yyyy",
+    "phone": "Phone",
+    "email": "Email Address",
+    "password": "Password",
+    "confirm_password": "Verify Password",
+    "continue": "Continue →",
+    "upload_photo": "Upload Photo",
+    "choose_option": "Choose an option",
+    "camera": "Camera",
+    "gallery": "Gallery",
+    "cancel": "Cancel"
+  },
+  "profile_details": "Profile Details",
+  "add_photo": "Add Photo",
+  "preferred_pronouns": "Preferred Pronouns",
+  "prefer_not_to_say": "Prefer not to say",
+  "he_him": "He/Him",
+  "she_her": "She/Her",
+  "they_them": "They/Them",
+  "emergency_contact": "Emergency Contact",
+  "full_name": "Full Name",
+  "phone_number": "Phone Number",
+  "relationship": "Relationship",
+  "gender":"Gender",
+  "male":"Male",
+  "female":"Female",
+  "others":"Others",
+  "address": "Address",
+  "street_address": "Street Address",
+  "city": "City",
+  "state": "State",
+  "preferred_language": "Preferred Language",
+  "english": "English",
+  "spanish": "Spanish",
+  "french": "French",
+  "education_level": "Education Level",
+  "high_school": "High School",
+  "bachelors_degree": "Bachelor’s Degree",
+  "masters_degree": "Master’s Degree",
+  "doctorate": "Doctorate",
+  "occupation": "Occupation",
+  "marital_status": "Marital Status",
+  "continue": "Continue",
+  "setup_later": "Set up profile later",
+  "welcomeBack": "Welcome Back",
+  "ask": "Ask",
+  "yourDoctorInTheFamily": "Your Doctor in the Family",
+  "consultWithDoctors": "Consult with board-certified doctors anytime, anywhere.",
+  "searchPlaceholder": "Search",
+  "upcomingSchedule": "Upcoming Schedule",
+  "viewAll": "View All",
+  "meetAndConsult": "Meet & Consult with Health Advisor",
+  "upcoming": "Upcoming",
+  "drJohnson": "Dr. Johnson",
+  "yourHealthAdvisor": "Your Health Advisor",
+  "viewDetail": "View Detail",
+  "healthChecklist": "Health Checklist",
+  "toDo": "to do",
+  "completeHealthQuestionnaire": "Complete Health Questionnaire",
+  "requiredForCarePlan": "Required for your care plan",
+  "start": "Start",
+  "orderBloodTestKit": "Order Blood Test Kit",
+  "order": "Order",
+  "uploadMedicalRecords": "Upload Medical Records",
+  "upload": "Upload",
+  "recentActivity": "Recent Activity",
+  "messageFromDrJohnson": "Message from Dr. Johnson",
+  "minutesAgo": "minutes ago",
+  "sleep": "Sleep",
+  "weeklyAvg": "Weekly Avg",
+  "quality": "Quality",
+  "deepSleep": "Deep Sleep",
+  "remSleep": "REM Sleep",
+  "consultation": "Consultation",
+  "supplements": "Supplements",
+  "labs": "Labs",
+  "medicalRecords": {
+    "title": "Medical Records",
+    "subtitle": "First, let's import your existing medical history"
+  },
+  "missing_fields": "Missing Fields",
+  "please_fill_all_fields": "Please fill in all the required fields.",
+  "validation": {
+    "title": "Validation",
+    "dob_required": "Please select your date of birth."
+  },
+  "health_questions": "Health Questions",
+  "step": "step {{current}} of {{total}}",
+  "depression": "Depression",
+  "depression_q1": "Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless?",
+  "depression_q2": "Over the last 2 weeks, how often have you had little interest or pleasure in doing things?",
+  "depression_options": [
+    "Not at all",
+    "Several days",
+    "More than half the days",
+    "Nearly every day"
+  ],
+  "back": "Back",
+  "alcohol_use": "Alcohol Use",
+  "q1": "How often do you have a drink containing alcohol?",
+  "q2": "How many standard drinks do you have on a typical day?",
+  "q3": "How often do you have six or more drinks on one occasion?",
+  "next": "Next",
+  "options": {
+    "never": "Never",
+    "monthly_or_less": "Monthly or less",
+    "2_4_month": "2–4 times a month",
+    "2_3_week": "2–3 times a week",
+    "4_plus_week": "4+ times a week",
+    "1_2": "1–2",
+    "3_4": "3–4",
+    "5_6": "5–6",
+    "7_9": "7–9",
+    "10_plus": "10+",
+    "less_monthly": "Less than monthly",
+    "monthly": "Monthly",
+    "weekly": "Weekly",
+    "daily": "Daily/almost daily"
+  },
+  "financial_resources": "Financial Resources",
+  "financial_q1": "In the past year, have you had difficulty paying for basic needs?",
+  "financial_q2": "Do you worry about having enough money for necessities?",
+  "financial_options": [
+    "Yes",
+    "No",
+    "Prefer not to answer",
+    "Never",
+    "Sometimes",
+    "Often"
+  ],
+  "food_security": {
+    "title": "Food Security",
+    "questions": [
+      "Within the past 12 months, we worried our food would run out before we got money to buy more.",
+      "Within the past 12 months, the food we bought just didn't last, and we didn't have money for more."
+    ],
+    "options": [
+      "Often true",
+      "Sometimes true",
+      "Never true"
+    ]
+  },
+  "housing_security": "Housing Security",
+  "housing_q1": "what is your housing situation today?",
+  "housing_q2": "In the past 12 months have you stayed in a shelter,car,or other non living space?",
+  "housing_options": [
+    "Steady Place to live",
+    "Worried about losing housing",
+    "No steady place to live",
+    "Yes",
+    "No"
+  ],
+  "relationship_safety": "Relationship Safety",
+  "relation_q1": "In the past year have you been afraid of your partner or ex-partner?",
+  "relation_q2": "In the past year have you been physically hurt by your partner or ex-partner?",
+  "relation_q3": "Do you feel unsafe in your current relationship?",
+  "relation_options": [
+    "Yes",
+    "No"
+  ],
+  "physical_activity": {
+    "title": "Physical Activity",
+    "questions": [
+      "How many days per week do you engage in 30+ minutes of moderate/vigorous activity?",
+      "How much time do you spend sitting daily?"
+    ],
+    "options": [
+      "0",
+      "1-2",
+      "3-4",
+      "5-7",
+      "< 2 hours",
+      "2-4 hours",
+      "4-6 hours",
+      "> 6 hours"
+    ]
+  },
+  "post_partum": {
+    "title": "Postpartum Wellbeing",
+    "questions": [
+      "I have been able to laugh and see the funny side of things?",
+      "I have been able to laugh and see the funny side of things?"
+    ],
+    "options": [
+      "As much as always",
+      "Not quite as much",
+      "Definitely less",
+      "Not at all",
+      "As much as always",
+      "Not quite as much",
+      "Definitely less",
+      "Not at all"
+    ]
+  },
+  "social": {
+    "title": "Social Connections",
+    "questions": [
+      "How often do you feel lonely or isolated?",
+      "Do you have someone you can count on for emotional support?"
+    ],
+    "options": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always",
+      "Yes",
+      "No"
+    ]
+  },
+  "stress": {
+    "title": "Stress Management",
+    "questions": [
+      "In the past month, how often have you felt unable to control important things in life ?",
+      "In the past month, how often have you felt confident about handling personal problems?"
+    ],
+    "options": [
+      "Never",
+      "Almost Never",
+      "Sometimes",
+      "Fairly often",
+      "Very often",
+      "As much as always",
+      "Not quite as much"
+    ]
+  },
+  "tobacco": {
+    "title": "Tobacco Use",
+    "questions": [
+      "Have you used tobacco (cigarettes, vaping, cigars) in the past 12 months?",
+      "Do you currently use tobacco products?"
+    ],
+    "options": [
+      "Yes",
+      "No",
+      "Dialy",
+      "Occasionally",
+      "Not at all"
+    ]
+  },
+  "transport": {
+    "title": "Transportation",
+    "questions": [
+      "In the past 12 months, has lack of transportation kept you from medical appointments, work, or essentials?"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ]
+  },
+  "utilities": {
+    "title": "Utilities",
+    "questions": [
+      "In the past year, have your utilities been turned off for non-payment?"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ]
+  },
+  "health_profile_complete": "Health Profile Complete",
+  "health_profile_description": "Thank you for sharing your health information. This helps us provide better care for you.",
+  "health_profile_saved": "Your responses have been securely saved. Based on your answers, we'll prepare personalized recommendations for your next consultation.",
+  "done_go_dashboard": "Done - Go to Dashboard",
+  "consultations": {
+    "chat": "Chat",
+    "call": "Call",
+    "consult": "Consult",
+    "noHistory": "No history yet",
+    "noHistorySubtitle": "Find everything you need for your health here.",
+    "scheduleBtn": "Schedule a consultation",
+    "viewProfile": "View Profile"
+  },
+     "doctorProfile": {
+      "details": "Details",
+      "availability": "Availability",
+      "review": "Review",
+      "about": "About dr. Isyana",
+      "seeMore": "See More",
+      "location": "Location on Maps",
+      "booking": "Booking",
+      "availabilityInfo": "Available time slots will appear here.",
+      "reviewInfo": "Reviews from other patients will appear here.",
+      "clinicTitle": "Dr. Isyana's Clinic",
+      "clinicDesc": "2km away from your current location"
+    },
+    "Step 1/5": "Step 1/5",
+  "Schedule a Consultation": "Schedule a Consultation",
+  "Choose the type of consultation you need": "Choose the type of consultation you need",
+  "Baseline Health Consultation": "Baseline Health Consultation",
+  "New patient assessment": "New patient assessment",
+  "Follow-Up Consultation": "Follow-Up Consultation",
+  "Continue your care plan": "Continue your care plan",
+  "Step 2/5": "Step 2/5",
+  "Select Provider": "Select Provider",
+  "Choose a provider for your consultation": "Choose a provider for your consultation",
+  "Select": "Select",
+  "Play video intro": "Play video intro",
+  "Continue": "Continue"
+}

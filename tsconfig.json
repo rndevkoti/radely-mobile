@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "noEmit": true
+  }
+}

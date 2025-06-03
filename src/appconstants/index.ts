@@ -5,6 +5,7 @@ export const USERTYPE = 'UserType';
 export const OTPVERIFICATION = 'OtpVerification';
 export const PROFILE = 'Profile';
 export const CONSENTSCREEN = 'ConsentScreen';
+export const MYCONSENTSCREEN = 'MyConsentScreen';
 export const ONBOARDINGSCREEN = 'OnboardingScreen';
 export const MEDICALRECORDSCREEN = 'MedicalRecordScreen';
 export const HEALTHONBOARDINGSCREEN = 'HealthOnboardingScreen';

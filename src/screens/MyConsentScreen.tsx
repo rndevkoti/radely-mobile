@@ -5,13 +5,13 @@ import { Text } from 'react-native';
 import Myconsent from '../template/Myconsent';
 
  
+
 const ConsentScreen = () => {
 	return (
 		<ScreenContainer isBottomHasTab={false}>
-			<Consent />
+			<Myconsent />
 		</ScreenContainer>
 	);
 };
 
 export default ConsentScreen;
-

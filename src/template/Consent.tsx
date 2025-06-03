@@ -12,7 +12,7 @@ import { windowHeight } from '../utils/heightWidth';
 import { useTheme } from '../theme/ThemeContext';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { MEDICALRECORDSCREEN, ONBOARDINGSCREEN } from '../appconstants';
+import { MEDICALRECORDSCREEN, MYCONSENTSCREEN, ONBOARDINGSCREEN } from '../appconstants';
  
 const Consent = () => {
   const { t } = useTranslation();
@@ -23,9 +23,14 @@ const Consent = () => {
 
   const allConsented = collect && share;
 
+  // const onClickContinue= () => {
+  //   console.log('click continue');
+  //   navigation.navigate(ONBOARDINGSCREEN);
+  // }
+
   const onClickContinue= () => {
     console.log('click continue');
-    navigation.navigate(ONBOARDINGSCREEN);
+    navigation.navigate(MYCONSENTSCREEN);
   }
 
   return (

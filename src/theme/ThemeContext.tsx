@@ -33,7 +33,8 @@ import React, {
     dotInactiveOpacity: number;
     card: string;
     deSelectionButtonText: string;
-    selectionButtonSubtitle: string
+    selectionButtonSubtitle: string;
+    dob:string;
   };
   
   type Language = 'en' | 'es';
@@ -70,7 +71,9 @@ import React, {
       card: '#CDD6DC',
       selectionButtonText: '#3D7256',
       deSelectionButtonText: '#7f7f7f',
-      selectionButtonSubtitle: '#467C60'
+      selectionButtonSubtitle: '#467C60',
+      dob:'#6B7280',
+
     },
     es: {
       gradient: ['#ffe1c1', '#f5a623'],
@@ -98,7 +101,8 @@ import React, {
       card: '#CDD6DC',
       selectionButtonText: '#3D7256',
       deSelectionButtonText: '#7f7f7f',
-      selectionButtonSubtitle: '#467C60'
+      selectionButtonSubtitle: '#467C60',
+      dob:'#6B7280',
     },
   };
   

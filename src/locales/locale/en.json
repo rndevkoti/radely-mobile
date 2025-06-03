@@ -40,6 +40,48 @@
     "consent_required": "Cannot proceed without consent",
     "withdraw_note": "You can withdraw consent at any time from your profile settings"
   },
+  
+    "myConsent": {
+      "title": "My Consent",
+      "subtitle": "First, let’s import your existing medical history",
+      "PatientInformation":"Patient Information",
+      "subheadertitle": [
+        {
+          "title": "Data Collection and Privacy",
+          "description": "I, [Patient’s Name], hereby consent to use Quilt Health to manage my healthcare information, appointments, and communication with healthcare providers. I understand that the app provides access to my personal health data and related services."
+        },
+        {
+          "title": "Data Collection & Privacy",
+          "description": "I acknowledge that Quilt Health collects, stores, and processes my personal and health-related data to enhance my user experience. My data will be handled securely and in compliance with applicable privacy laws, including [Relevant Privacy Laws]."
+        },
+        {
+          "title": "Use of Personal Health Information",
+          "description": "I authorize Quilt Health to store and share my health records with my designated healthcare providers for the purpose of treatment, appointment scheduling, and communication. I understand that my data will not be shared with third parties without my explicit consent, except as required by law."
+        },
+        {
+          "title": "Communication & Notifications",
+          "description": "I consent to receive notifications, reminders, and health-related messages via email, SMS, or app notifications. I understand that I can manage my communication preferences within the app."
+        },
+        {
+          "title": "Security & Account Responsibility",
+          "description": "I understand that it is my responsibility to maintain the security of my account, including keeping my login credentials confidential. If I suspect unauthorized access, I will notify Quilt Health immediately."
+        },
+        {
+          "title": "Right to Withdraw Consent",
+          "description": "I have the right to withdraw my consent to use Quilt Health at any time by deactivating my account or contacting the Quilt Health Support Team. However, past data collected before withdrawal will be retained as required by law."
+        },
+        {
+          "title": "Patient Declaration",
+          "description": "I have read and understood this consent form. I voluntarily agree to use Quilt Health and consent to the terms outlined above."
+        }
+      ]
+    }
+  ,
+  
+  
+      
+    
+  
   "profile": {
     "title": "Your Profile",
     "add_photo": "Add Photo",

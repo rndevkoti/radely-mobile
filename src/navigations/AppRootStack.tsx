@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, { memo, useEffect, useRef } from 'react';
 import { AppState, AppStateStatus, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { APP_ROOT, USER_TYPE } from '../appconstants';
+import { APP_ROOT, CONSENTSCREEN, USER_TYPE } from '../appconstants';
 import { navigationRef } from './NavigationHelper';
 import { SplashNavigator } from './splashStack/SplashStack';
 import { useProfile } from '../context/ProfileContext';
@@ -64,6 +64,7 @@ export const AppRootNavigator = () => {
     <NavigationContainer ref={navigationRef}>
       <RootStack.Navigator
         initialRouteName={APP_ROOT}
+        // initialRouteName={CONSENTSCREEN}
         screenOptions={{ headerShown: false }}
       >
         <RootStack.Screen

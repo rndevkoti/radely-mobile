@@ -45,7 +45,7 @@ const Myconsent = () => {
             return null;
         }
     };
-
+console.log("----->log added")
     useEffect(() => {
         const fetchSignupResponse = async () => {
             const response = await getSignupResponse();

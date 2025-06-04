@@ -74,6 +74,10 @@ const Login = () => {
     }
   };
 
+  const handleForgot=()=>{
+    navigation.navigate('Forgot');
+  }
+
   return (
     <KeyboardAvoidingView
     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
@@ -177,6 +181,16 @@ const Login = () => {
               <Text style={[styles.loginText, { color: theme.buttonText }]}>Login</Text>
             )}
           </TouchableOpacity>
+
+     {/* Forgot */}
+
+     <TouchableOpacity 
+   onPress={handleForgot}
+     style={{marginVertical:10}} >
+      <Text>Forgot Password</Text>
+     </TouchableOpacity>
+       
+
         </ScrollView>
       </LinearGradient>
     </KeyboardAvoidingView>

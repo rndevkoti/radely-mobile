@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from '../../screens/SplashScreen';
-import { BOTTOM_TAB, HEALTHONBOARDINGSCREEN, LANGUAGE, LOGIN, QUESTIONSSCREEN, SPLASH, USER_TYPE, USERTYPE, WELCOME } from '../../appconstants';
+import { BOTTOM_TAB, FORGOT, HEALTHONBOARDINGSCREEN, LANGUAGE, LOGIN, OTPLOGINVERIFICATION, OTPVERIFICATION, QUESTIONSSCREEN, RESET, SPLASH, USER_TYPE, USERTYPE, WELCOME } from '../../appconstants';
 import LanguageScreen from '../../screens/LanguageScreen';
 import WelcomeScreen from '../../screens/WelcomeScreen';
 import UserTypeScreen from '../../screens/UserTypeScreen';
@@ -10,6 +10,10 @@ import { QuestionsStackNavigator } from '../questionsStack/QuestionsStackNavigat
 import LoginScreen from '../../screens/LoginScreen';
 import { BottomTabNavigation } from '../bottomStack';
 import HealthOnboardingScreen from '../../screens/HealthOnboardingScreen';
+import ForgotPasswordScreen from '../../screens/ForgotPasswordScreen';
+import ResetPasswordScreen from '../../screens/ResetPasswordScreen';
+import OtpVerification from '../../template/OTPVerification';
+import OtpLoginScreen from '../../screens/OtpLoginScreen';
 
 const SplashStack = createNativeStackNavigator();
 
@@ -36,6 +40,22 @@ export const SplashNavigator = () => {
 				component={LoginScreen}
 				options={{ headerShown: false }}
 			/>
+			<SplashStack.Screen
+				name={FORGOT}
+				component={ForgotPasswordScreen}
+				options={{ headerShown: false }}
+			/>
+			<SplashStack.Screen
+				name={OTPLOGINVERIFICATION}
+				component={OtpLoginScreen}
+				options={{ headerShown: false }}
+			/>
+			<SplashStack.Screen
+				name={RESET}
+				component={ResetPasswordScreen}
+				options={{ headerShown: false }}
+			/>
+			
 			{/* <SplashStack.Screen
 				name={USERTYPE}
 				component={UserTypeScreen}

@@ -15,6 +15,7 @@ import { useNavigation } from '@react-navigation/native';
 import { ONBOARDINGSCREEN } from '../appconstants';
 import { ScrollView } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { customFonts } from '../theme/fonts';
 
 const Myconsent = () => {
     const { t } = useTranslation();
@@ -173,21 +174,24 @@ const styles = StyleSheet.create({
     },
     cardTitle: {
         fontSize: 16,
-        fontWeight: 'bold',
+        fontFamily:customFonts.interBold
     },
     InfoText: {
         fontSize: 16,
         color: 'red',
-        fontWeight: '900',
+        fontFamily:customFonts.interBold
     },
     cardText: {
         fontSize: 16,
         marginHorizontal: 18,
         alignSelf: 'center',
         textAlign: 'center',
+        fontFamily:customFonts.interRegular
     },
     cardTextdescription: {
         fontSize: 16,
+        fontFamily:customFonts.interRegular
+
     },
     button: {
         paddingVertical: 16,
@@ -205,7 +209,8 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         textAlign: 'center',
-        fontFamily: 'Georgia',
         marginVertical: 6,
+        fontFamily:customFonts.actaMedium
+
     },
 });

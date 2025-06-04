@@ -18,7 +18,7 @@ export const UserTypeNavigator = () => {
 	return (
 		<UserTypeStack.Navigator
 		 initialRouteName={USERTYPE}
-		// initialRouteName={CONSENTSCREEN}
+		// initialRouteName={MYCONSENTSCREEN}
 		 >
 			<UserTypeStack.Screen
 				name={USERTYPE}

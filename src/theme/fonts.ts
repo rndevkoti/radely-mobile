@@ -7,6 +7,4 @@ export const customFonts={
     actaMedium:"BodoniModa_18pt-Medium",
     actaSemi_Bold:"BodoniModa_18pt-SemiBold",
     actaBold:"BodoniModa_18pt-Bold",
-
-
 }
